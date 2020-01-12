@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.Class01.VerifyLogoHW">
+      <class name="com.Class02.AssertionExercise">
         <methods>
-          <include name="quit"/>
-          <include name="logoVeryfication"/>
-          <include name="openURL"/>
+          <include name="addEmp"/>
+          <include name="login"/>
         </methods>
-      </class> <!-- com.Class01.VerifyLogoHW -->
+      </class> <!-- com.Class02.AssertionExercise -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

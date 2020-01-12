@@ -1,55 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="8" passed="7" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-01-12T12:08:26 EST" name="Default suite" finished-at="2020-01-12T12:08:51 EST" duration-ms="25558">
+  <suite started-at="2020-01-12T14:14:17 EST" name="Suite" finished-at="2020-01-12T14:17:46 EST" duration-ms="208897">
     <groups>
     </groups>
-    <test started-at="2020-01-12T12:08:26 EST" name="Default test" finished-at="2020-01-12T12:08:51 EST" duration-ms="25558">
-      <class name="com.Class01.VerifyLogoHW">
-        <test-method is-config="true" signature="openURL()[pri:0, instance:com.Class01.VerifyLogoHW@7ea37dbf]" started-at="2020-01-12T12:08:26 EST" name="openURL" finished-at="2020-01-12T12:08:40 EST" duration-ms="14663" status="PASS">
+    <test started-at="2020-01-12T14:14:17 EST" name="Test" finished-at="2020-01-12T14:17:46 EST" duration-ms="208897">
+      <class name="com.Class02.AssertionExercise">
+        <test-method is-config="true" signature="login()[pri:0, instance:com.Class02.AssertionExercise@7fc2413d]" started-at="2020-01-12T14:16:24 EST" name="login" finished-at="2020-01-12T14:17:21 EST" duration-ms="56230" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openURL -->
-        <test-method signature="logoVeryfication()[pri:0, instance:com.Class01.VerifyLogoHW@7ea37dbf]" started-at="2020-01-12T12:08:40 EST" name="logoVeryfication" finished-at="2020-01-12T12:08:50 EST" duration-ms="10076" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        </test-method> <!-- login -->
+        <test-method signature="addEmp()[pri:0, instance:com.Class02.AssertionExercise@7fc2413d]" started-at="2020-01-12T14:17:21 EST" name="addEmp" finished-at="2020-01-12T14:17:46 EST" duration-ms="24899" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmp -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.Class02.AssertionExercise@7fc2413d]" started-at="2020-01-12T14:17:46 EST" name="close" finished-at="2020-01-12T14:17:46 EST" duration-ms="720" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.Class02.AssertionExercise -->
+      <class name="com.Class02.AssertionsDemo">
+        <test-method is-config="true" signature="openAndNavigate()[pri:0, instance:com.Class02.AssertionsDemo@6293abcc]" started-at="2020-01-12T14:14:18 EST" name="openAndNavigate" finished-at="2020-01-12T14:14:31 EST" duration-ms="13714" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAndNavigate -->
+        <test-method signature="logoValidation()[pri:0, instance:com.Class02.AssertionsDemo@6293abcc]" started-at="2020-01-12T14:14:31 EST" name="logoValidation" finished-at="2020-01-12T14:14:31 EST" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoValidation -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.Class02.AssertionsDemo@6293abcc]" started-at="2020-01-12T14:14:31 EST" name="quit" finished-at="2020-01-12T14:14:32 EST" duration-ms="716" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="openAndNavigate()[pri:0, instance:com.Class02.AssertionsDemo@6293abcc]" started-at="2020-01-12T14:14:32 EST" name="openAndNavigate" finished-at="2020-01-12T14:14:46 EST" duration-ms="13908" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAndNavigate -->
+        <test-method signature="titleVerification()[pri:0, instance:com.Class02.AssertionsDemo@6293abcc]" started-at="2020-01-12T14:14:46 EST" name="titleVerification" finished-at="2020-01-12T14:14:46 EST" duration-ms="17" status="FAIL">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//img[@alt='OrangeHRMm']"}
-  (Session info: chrome=79.0.3945.117)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'DESKTOP-CSFQAL8', ip: '192.168.1.53', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\E\AppData\Local\Te...}, goog:chromeOptions: {debuggerAddress: localhost:59240}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: d87d6d520b73b1eff9f7bf247a70c5c3
-*** Element info: {Using=xpath, value=//img[@alt='OrangeHRMm']}]]>
+              <![CDATA[Titles are matched! expected [Human Management System+Wrong] but found [Human Management System]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//img[@alt='OrangeHRMm']"}
-  (Session info: chrome=79.0.3945.117)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'DESKTOP-CSFQAL8', ip: '192.168.1.53', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\E\AppData\Local\Te...}, goog:chromeOptions: {debuggerAddress: localhost:59240}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: d87d6d520b73b1eff9f7bf247a70c5c3
-*** Element info: {Using=xpath, value=//img[@alt='OrangeHRMm']}
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at com.Class01.VerifyLogoHW.logoVeryfication(VerifyLogoHW.java:37)
+              <![CDATA[java.lang.AssertionError: Titles are matched! expected [Human Management System+Wrong] but found [Human Management System]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:575)
+at com.Class02.AssertionsDemo.titleVerification(AssertionsDemo.java:29)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -80,15 +79,55 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- logoVeryfication -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:com.Class01.VerifyLogoHW@7ea37dbf]" started-at="2020-01-12T12:08:50 EST" name="quit" finished-at="2020-01-12T12:08:51 EST" duration-ms="761" status="PASS">
+        </test-method> <!-- titleVerification -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.Class02.AssertionsDemo@6293abcc]" started-at="2020-01-12T14:14:46 EST" name="quit" finished-at="2020-01-12T14:14:47 EST" duration-ms="747" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-      </class> <!-- com.Class01.VerifyLogoHW -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        <test-method is-config="true" signature="openAndNavigate()[pri:0, instance:com.Class02.AssertionsDemo@6293abcc]" started-at="2020-01-12T14:14:47 EST" name="openAndNavigate" finished-at="2020-01-12T14:15:16 EST" duration-ms="28816" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAndNavigate -->
+        <test-method signature="validLogin()[pri:0, instance:com.Class02.AssertionsDemo@6293abcc]" started-at="2020-01-12T14:15:16 EST" name="validLogin" finished-at="2020-01-12T14:15:30 EST" duration-ms="14182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.Class02.AssertionsDemo@6293abcc]" started-at="2020-01-12T14:15:30 EST" name="quit" finished-at="2020-01-12T14:15:30 EST" duration-ms="732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.Class02.AssertionsDemo -->
+      <class name="com.Class02.SoftAssertionDemo">
+        <test-method is-config="true" signature="open()[pri:0, instance:com.Class02.SoftAssertionDemo@7995092a]" started-at="2020-01-12T14:15:30 EST" name="open" finished-at="2020-01-12T14:16:05 EST" duration-ms="34906" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method signature="logoAndLogin()[pri:0, instance:com.Class02.SoftAssertionDemo@7995092a]" started-at="2020-01-12T14:16:05 EST" name="logoAndLogin" finished-at="2020-01-12T14:16:24 EST" duration-ms="18413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoAndLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Class02.SoftAssertionDemo@7995092a]" started-at="2020-01-12T14:16:24 EST" name="tearDown" finished-at="2020-01-12T14:16:24 EST" duration-ms="695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Class02.SoftAssertionDemo -->
+      <class name="com.Class01.TestNGDemo">
+        <test-method signature="testOne()[pri:0, instance:com.Class01.TestNGDemo@f8c1ddd]" started-at="2020-01-12T14:17:46 EST" name="testOne" finished-at="2020-01-12T14:17:46 EST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOne -->
+        <test-method signature="testThree()[pri:0, instance:com.Class01.TestNGDemo@f8c1ddd]" started-at="2020-01-12T14:17:46 EST" name="testThree" finished-at="2020-01-12T14:17:46 EST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThree -->
+        <test-method signature="testTwo()[pri:0, instance:com.Class01.TestNGDemo@f8c1ddd]" started-at="2020-01-12T14:17:46 EST" name="testTwo" finished-at="2020-01-12T14:17:46 EST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTwo -->
+      </class> <!-- com.Class01.TestNGDemo -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
